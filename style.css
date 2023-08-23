@@ -1,0 +1,121 @@
+*{margin: 0; padding: 0; font-family:'Courier New', Courier, monospace; box-sizing: border-box;}
+body{
+    background-image: url(bgm.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    font-size: large;
+    font-family: monospace;
+    color: #183e0b;
+    margin: 0px 0px 10px 225px;
+}
+.container{
+    margin: 10px 120px px 10px;
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.calculator{
+    background:linear-gradient(rgba(48, 149, 193, 0.353),rgba(4, 43, 92, 0.989));
+    box-shadow: 25px 25px 75px rgba(255, 255, 255, 0.347),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.668),
+    inset 5px 5px 20px rgba(55, 52, 52, 0.853);
+    padding: 20px;
+    border-radius: 50px;
+    size: 10px;
+}
+.calculator form input{
+    border: 0;
+    outline:0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(23, 0, 0, 0.347), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.scr{
+    background: linear-gradient(rgba(231, 239, 242, 0.353),rgba(221, 225, 230, 0.805));
+    border: 2px solid rgb(166, 201, 60);
+    height: 200px;
+    border-radius: 30px;
+    box-shadow: #eddede;
+    margin: 10px;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 232;
+    font-size: 45px;
+    box-shadow: none;
+    background: transparent;
+}
+form .sol{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .sol input{
+    text-align: right;
+    flex: 232;
+    font-size: 45px;
+    box-shadow: none;
+    background: transparent;
+}
+form input.equal{
+    width: 150px;
+    border-radius: 40px;
+    background-color: rgba(0, 217, 255, 0.386);
+}
+
+#eds{
+    font-size: 5em;
+    color: rgb(76, 69, 69);
+}
+form input.red{
+    color: #ff0000;
+    font: message-box;
+    width: 103.6px;
+    border-radius: 30px;
+}
+form input.red:hover{
+    background:linear-gradient(rgba(241, 101, 101, 0.353),rgba(211, 48, 48, 0.94));
+    color: #0eff06;
+    font: message-box;
+}
+
+
+form input.yellow{
+    background-color: #ffd90089;
+    color: #000000;
+    font-size:x-large; 
+    border-radius: 50%; 
+    
+}
+form input.yellow:hover{
+    background-color: rgb(255, 225, 0);
+    color: #000000;
+    box-shadow: -8px -8px 15px rgba(8, 8, 8, 0.619), 5px 5px 15px rgba(0, 0, 0, 0.586);
+
+}
+form input.btn{
+    color: #000000;
+    
+}
+form input.btn:hover{
+    background-color: rgb(192, 239, 239);
+    color: #0075dc;
+    box-shadow: -8px -8px 15px rgba(8, 8, 8, 0.619), 5px 5px 15px rgba(0, 0, 0, 0.586);
+
+}

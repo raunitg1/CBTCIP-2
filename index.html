@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name= "viewport" content="width=device=width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    <div class="container">
+        
+        <div class="calculator">
+            <h1>CALC-991ES</h1>
+        <form>
+            <div class="scr">
+            <div class="display">
+                <input type="text" id="edu" class="display"> 
+            </div>
+                <div class="sol">
+                    <input type="text" id= "eds" class="sol">
+              </div>
+            </div>
+            <div>
+                <input type="button" value="AC" onclick="clr()" class="red">
+                <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1)" class="red">
+                <input type="button" value="/"  onclick="dis('/')" class="yellow">
+            </div>
+            <div>
+                <input type="button" value="7" onclick="dis('7')" class="btn">
+                <input type="button" value="8" onclick="dis('8')" class="btn">
+                <input type="button" value="9" onclick="dis('9')" class="btn">
+                <input type="button" value="*" onclick="dis('*')" class="yellow" >
+            </div>
+            <div>
+                <input type="button" value="4" onclick="dis('4')" class="btn">
+                <input type="button" value="5" onclick="dis('5')"class="btn">
+                <input type="button" value="6" onclick="dis('6')" class="btn">
+                <input type="button" value="-" onclick="dis('-')" class="yellow">
+            </div>
+            <div>
+                <input type="button" value="1" onclick="dis('1')" class="btn">
+                <input type="button" value="2" onclick="dis('2')" class="btn">
+                <input type="button" value="3" onclick="dis('3')" class="btn">
+                <input type="button" value="+" onclick="dis('+')"class="yellow">
+            </div>
+            <div>
+                <input type="button" value="."  onclick="dis('.')"class="btn">
+                <input type="button" value="0" onclick="dis('0')"class="btn">
+                <input type="button" value="=" onclick="sol()" class="equal btn" >
+            </div>
+        </div>
+       
+        </form>
+    </div>
+    </div>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
+ 
